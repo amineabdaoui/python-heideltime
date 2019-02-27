@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Set these paths appropriately
+
+BIN="/Users/Amine/Documents/GeoTrend/Evaluations/Dates/HeidelTime/TreeTagger/bin"
+CMD="/Users/Amine/Documents/GeoTrend/Evaluations/Dates/HeidelTime/TreeTagger/cmd"
+LIB="/Users/Amine/Documents/GeoTrend/Evaluations/Dates/HeidelTime/TreeTagger/lib"
+
+OPTIONS="-token -lemma -sgml"
+
+TAGGER=${BIN}/tree-tagger
+TOKENIZER=${CMD}/tokenize-korean.pl
+PARFILE=${LIB}/korean-utf8.par
+
+$TOKENIZER $* |
+$TAGGER $OPTIONS $PARFILE |
+$CMD/add-korean-sentence-markers.pl |
+$CMD/reformat-korean-tagger-output.pl

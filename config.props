@@ -21,7 +21,7 @@ considerTemponym = false
 # Path to TreeTagger home directory
 ###################################
 # Ensure there is no white space in path (try to escape white spaces)
-treeTaggerHome = SET ME IN CONFIG.PROPS! (e.g., /home/jannik/treetagger)
+treeTaggerHome = TreeTagger
 # This one is only necessary if you want to process chinese documents.
 chineseTokenizerPath = SET ME IN CONFIG.PROPS! (e.g., /home/jannik/treetagger/chinese-tokenizer)
 

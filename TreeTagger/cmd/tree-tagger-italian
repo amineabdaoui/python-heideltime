@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Set these paths appropriately
+
+BIN="/Users/Amine/Documents/GeoTrend/Evaluations/Dates/HeidelTime/TreeTagger/bin"
+CMD="/Users/Amine/Documents/GeoTrend/Evaluations/Dates/HeidelTime/TreeTagger/cmd"
+LIB="/Users/Amine/Documents/GeoTrend/Evaluations/Dates/HeidelTime/TreeTagger/lib"
+
+OPTIONS="-token -lemma -sgml"
+
+TOKENIZER=${CMD}/utf8-tokenize.perl
+TAGGER=${BIN}/tree-tagger
+ABBR_LIST=${LIB}/italian-abbreviations
+PARFILE=${LIB}/italian-utf8.par
+
+$TOKENIZER -i -a $ABBR_LIST $* |
+$TAGGER $OPTIONS $PARFILE

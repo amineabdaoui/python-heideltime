@@ -1,0 +1,44 @@
+
+                  ************************
+                  *  License Conditions  *
+                  ************************
+
+concerning the use and distribution of the program system 'TreeTagger'.  
+
+The license is granted by
+Helmut Schmid, Markusstraße 8, 72760 Reutlingen, Germany
+Email schmid@cis.lmu.de
+
+1. The user can freely use TreeTagger for evaluation, research, and
+   teaching purposes. Any commercial usage is forbidden without a
+   separate commercial license available from the licensor.
+
+2. The user is not allowed to distribute or sell the system to third
+   parties without written permission from the licensor.
+
+			   NO WARRANTY
+
+3. BECAUSE THE SYSTEM IS LICENSED FREE OF CHARGE, WE PROVIDE
+ABSOLUTELY NO WARRANTY, TO THE EXTENT PERMITTED BY APPLICABLE STATE
+LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE LICENSOR PROVIDES THE
+SYSTEM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK
+AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH THE USER.
+SHOULD THE SYSTEM PROVE DEFECTIVE, THE USER ASSUMES THE COST OF ALL
+NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+4. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW WILL THE LICENSOR BE
+LIABLE TO THE USER FOR DAMAGES, INCLUDING ANY LOST PROFITS, LOST
+MONIES, OR OTHER SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING
+OUT OF THE USE OR INABILITY TO USE (INCLUDING BUT NOT LIMITED TO LOSS
+OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY THIRD
+PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAM)
+THE PROGRAM, EVEN IF THE USER HAS BEEN ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGES, OR FOR ANY CLAIM BY ANY OTHER PARTY.
+
+
+The wording of this license agreement has been adapted from the
+license of the ALF system by Michael Hanus, Max-Planck-Institut
+Saarbruecken and the GnuEmacs General Public License (c) 1991 Free
+Software Foundation. 
