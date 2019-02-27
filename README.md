@@ -10,6 +10,6 @@ So you will need to install it and specify the treeTaggerHome in the config.prop
 
 ```
 import HeidelTime
-hw = heideltime.HeidelTimeWrapper('english')
+hw = HeidelTime.HeidelTimeWrapper('english')
 hw.parse('Neil Armstrong was born in 1930')
 ```
