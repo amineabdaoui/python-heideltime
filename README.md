@@ -10,7 +10,7 @@ This repo includes TreeTagger scripts for Mac and Linux. Windows users will have
 # Demo
 
 1. Clone the current github repo: `git clone https://github.com/amineabdaoui/python-heideltime`
-2. install its requirements: `pip install -r requirements.txt`
+2. Install its requirements: `pip install -r requirements.txt`
 3. Create a python file in the same directory with the following code:
 ```python
 import HeidelTime
