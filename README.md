@@ -19,4 +19,5 @@ hw.parse('Neil Armstrong was born in 1930')
 ```
 
 # Future Work
-Package all the necessary parts in the same python package and release it on PyPi.
+- Encapsulate the returned tagged string in a python object
+- Package all the necessary parts in the same python package and release it on PyPi.
