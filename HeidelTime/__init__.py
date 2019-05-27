@@ -1,7 +1,7 @@
 import jpype
 
 # start the JVM
-if jpype.isJVMStarted() is not 1:
+if not jpype.isJVMStarted() :
 	jar = "HeidelTime/de.unihd.dbs.heideltime.standalone.jar"
 	jpype.startJVM(jpype.getDefaultJVMPath(), "-ea", "-Djava.class.path=%s" % jar)
 
