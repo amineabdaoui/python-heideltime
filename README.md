@@ -20,4 +20,7 @@ hw.parse('Neil Armstrong was born in 1930')
 
 # Future Work
 - Encapsulate the returned tagged string in a python object
+- Find a way to install the appropriate POS tagger files according to the user OS.
 - Package all the necessary parts in the same python package and release it on PyPi.
+
+`Pull requests` are welcome to improve this wrapper (which is in an early stage).
