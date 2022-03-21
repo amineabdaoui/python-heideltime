@@ -7,6 +7,8 @@ For more information about this temporal tagger, please visit : https://github.c
 Heideltime needs a Part Of Speech Tagger, by default it uses TreeTagger : http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/.
 This repo includes TreeTagger scripts for Mac and Linux. Windows users will have to download the appropriate scripts from the TreeTagger home page.
 
+:exclamation: Disclaimer: this repository is not maintained, you are free to use it and adapt it to your needs but you may not get support if needed.
+
 # Demo
 
 1. Clone the current github repo: `git clone https://github.com/amineabdaoui/python-heideltime`
